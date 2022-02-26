@@ -1,0 +1,193 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: rgb(226, 197, 155);
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+.item {
+  flex: 0 1 200px;
+  color: purple;
+  padding: 1%;
+  text-align: right;
+}
+
+nav ul li a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: fuchsia;
+}
+
+main {
+  background-color: seashell;
+  padding: 1.2rem;
+}
+
+.primeraSeccion h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.primeraSeccion p {
+  font-size: 0, 5rem;
+}
+
+h1 {
+  color: rgb(200, 106, 200);
+  margin: 10px;
+  padding: 10px;
+}
+h2 {
+  color: purple;
+}
+
+.cajasSeccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.caja {
+  flex: 1 1 200px;
+  justify-content: center;
+}
+.tituloDeSeccion,
+.textoBienvenida {
+  color: purple;
+  margin: 10px;
+  padding: 10px;
+}
+
+.videoPromocional video {
+  max-width: 100%;
+}
+
+.segundaSeccion {
+  padding: 20px;
+}
+
+.segundaSeccion .tituloDeSeccion {
+  justify-content: center;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(180, 60, 60);
+  border-radius: 5%;
+}
+
+.promociones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.promo {
+  padding: 1rem;
+}
+.footer {
+  background-color: rgb(226, 197, 155);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+footer ul li {
+  display: inline-block;
+  padding: 5px;
+  color: purple;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formItem {
+  flex: 1 1 200px;
+}
+.gridContainer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.gridItem {
+  font-size: 0.9rem;
+  padding: 60px 60px 60px 60px;
+  background-color: rgb(226, 197, 155);
+  color: brown;
+  border: 1px solid fuchsia;
+  border-radius: 5%;
+}
+
+/* Desayunos y meriendas */
+
+.cardsGridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+article img {
+  order: -1;
+  align-self: center;
+}
+
+article button {
+  margin-top: auto;
+  background: black;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.descripcionItems {
+  color: rgb(180, 60, 60);
+}

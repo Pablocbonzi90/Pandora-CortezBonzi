@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <nav class="barraNavegacion">
+      <ul class="container">
+        <li class="item"><a href="index.html"> Inicio</a></li>
+        <li class="item"><a href="Nosotros.html"> Nosotros</a></li>
+        <li class="item"><a href="DesayunosMeriendas.html">Desayunos y meriendas</li>
+        <li class="item"><a href="PreguntasFrecuentes.html">Preguntas frecuentes</li>
+        <li class="item"><a href="Contacto.html"> Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+      <section class="primeraSeccion">
+        <div>
+            <h1>Contactate con nosotros</h1>
+        </div>
+        <form class="formSection">
+            <fieldset>
+              <legend >Formulario de contacto</legend>
+              <label for="Nombre" class="formItem">Nombre</label>
+              <input type="text" name="Nombre" id="nombre" class="formItem" />
+              <br />
+              <label for="apellido" class="formItem">Apellido</label>
+              <input type="text" name="Apellido" id="Apellido" class="formItem"/>
+              <br>
+              <label for="correo" class="formItem">Correo</label>
+              <input type="text" name="correo" id="correo" class="formItem"/>
+              <div>¿Desea recibir novedades e información de promociones?</div>
+              <input type="checkbox" name="Acepta" value="1" class="formItem" />
+              <br />
+              <div>Consulta por</div>
+              <label for="Consulta" class="formItem"></label>
+              <select name="Consulta" id="talles" class="formItem">
+                <option value="C">Catering para evento</option>
+                <option value="D">Desayuno soprpresa</option>
+              </select>
+              <br />
+              <label for="mensaje" class="formItem">Mensaje</label>
+              <br />
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10" ></textarea>
+              <br />
+              <input type="submit" value="Enviar formulario" />
+              <input type="reset" value="Borrar formulario" />
+            </fieldset>
+          </form>
+    </section>
+    </main>
+    <footer class="footer">
+      <ul class="container">
+        <li class="item">Facebook</li>
+        <li class="item">Instagram</li>
+        <li class="item">Twitter</li>
+        
+      </ul>
+    </footer>
+</body>
+</html>
