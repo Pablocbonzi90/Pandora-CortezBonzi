@@ -134,7 +134,7 @@ footer ul li {
           justify-content: center;
 }
 
-section img {
+.imgPromo {
   width: 300px;
   height: 300px;
   border: 1px solid #b43c3c;
@@ -156,6 +156,43 @@ section img {
 
 .promoIndex {
   padding: 1rem;
+}
+
+.boxesNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2px;
+}
+
+.boxesNosotros .boxNosotros {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boxesNosotros .boxNosotros img {
+  max-width: 100%;
+}
+
+.textoNosotros {
+  color: purple;
+  margin: 10px;
+  padding: 10px;
+}
+
+.textoNosotros .parrafo {
+  padding: 10px;
 }
 
 .cardsGridContainer {
@@ -223,34 +260,5 @@ article button {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
-}
-
-.gridContainer {
-  padding: 20px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 200px 200px;
-      grid-template-columns: 200px 200px;
-  grid-auto-rows: 200px;
-  grid-gap: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  height: 100vh;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.gridItem {
-  font-size: 0.9rem;
-  padding: 60px 60px 60px 60px;
-  background-color: #e2c59b;
-  color: brown;
-  border: 1px solid fuchsia;
-  border-radius: 5%;
 }
 /*# sourceMappingURL=style.css.map */

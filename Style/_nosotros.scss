@@ -1,0 +1,22 @@
+.boxesNosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2px;
+  .boxNosotros {
+    flex: 1 1 200px;
+    justify-content: center;
+  }
+  .boxNosotros img {
+    max-width: 100%;
+  }
+}
+
+.textoNosotros {
+  color: purple;
+  margin: 10px;
+  padding: 10px;
+  .parrafo {
+    padding: 10px;
+  }
+}
