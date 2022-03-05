@@ -1,0 +1,45 @@
+.cajasSeccionIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.cajaIndex {
+  flex: 1 1 200px;
+  justify-content: center;
+}
+.tituloDeSeccionIndex,
+.textoBienvenida {
+  color: purple;
+  margin: 10px;
+  padding: 10px;
+}
+
+.videoPromocional video {
+  max-width: 100%;
+}
+
+.segundaSeccionIndex {
+  padding: 20px;
+}
+
+.segundaSeccionIndex .tituloDeSeccionIndex {
+  justify-content: center;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(180, 60, 60);
+  border-radius: 5%;
+}
+
+.promocionesIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.promoIndex {
+  padding: 1rem;
+}
