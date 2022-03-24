@@ -18,14 +18,18 @@ header {
   background-color: #e2c59b;
   position: -webkit-sticky;
   position: sticky;
-  top: 0%;
-  z-index: 1;
 }
 
 .nav-link {
   color: purple !important;
 }
 .nav-link:hover {
+  color: fuchsia !important;
+}
+.bi {
+  color: purple !important;
+}
+.bi:hover {
   color: fuchsia !important;
 }
 
@@ -48,6 +52,10 @@ h2 {
 main {
   background-color: seashell;
   padding: 1%;
+}
+
+footer {
+  background-color: #e2c59b;
 }
 
 .cajasSeccionIndex {
@@ -99,23 +107,6 @@ main {
   height: 300px;
   border: 1px solid #b43c3c;
   border-radius: 5%;
-}
-
-.promocionesIndex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-}
-
-.promoIndex {
-  padding: 1rem;
 }
 
 .boxesNosotros {
@@ -198,17 +189,6 @@ article button {
 
 .descripcionItems {
   color: #b43c3c;
-}
-footer {
-  background-color: #e2c59b;
-}
-
-.bi {
-  color: purple !important;
-}
-
-.bi:hover {
-  color: fuchsia !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+{
+  "name": "pandora-cortezbonzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch style:estilo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pablocbonzi90/Pandora-CortezBonzi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pablocbonzi90/Pandora-CortezBonzi/issues"
+  },
+  "homepage": "https://github.com/Pablocbonzi90/Pandora-CortezBonzi#readme"
+}
